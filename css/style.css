@@ -1,0 +1,122 @@
+body {
+	font-size: 1.5em;
+  	line-height: 1.6;
+  	font-weight: 400;
+  	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	color: #333;
+    text-align: center;
+    overflow: hidden;
+    background-color: #111;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  	margin: 0;
+	padding: 0;
+	font-weight: 300; 
+}
+
+p {
+  margin: 0 0 14px 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: #ee7622;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover  {
+  color: #ff9042;
+}
+
+canvas {
+	margin-top: 8px;
+	height: 100vh;
+	overflow: hidden;
+}
+
+/* Info Box
+------------------------------------------*/
+
+.udacity-info-button {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  cursor: help;
+  z-index: 999;
+}
+
+.udacity-info-button img {
+  width: 100%;
+  padding: 0;
+}
+
+#udacity-info {
+  position: fixed;
+  width: 80%;
+  max-width: 760px;
+  top: 30px;
+  background: #F3F3F3;
+  border: 1px solid #999;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  z-index: 990;
+}
+
+.udacity-info-header{
+	text-align: left;
+  background: #294860;
+  border-bottom: 1px solid #1C3344;
+  padding: 10px;
+}
+
+.udacity-info-header h2{
+  padding-left: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.udacity-info-content {
+  text-align: left;
+  margin: 20px;
+  background: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 2px;
+  padding: 12px;
+}
+
+.udacity-info-content p {
+  font-size: 14px;
+  color: #666;
+  line-height: 21px;
+}
+
+.udacity-info-hidden {
+  overflow: hidden;
+  right: -999px;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+
+.udacity-info-visible {
+  right: 10px;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+
+#mouse-click {
+  width: 50%;
+  background: #F3F3F3;
+  border: 1px solid #dcdcdc;
+  border-radius: 2px;
+  padding: 14px 14px 0 14px;
+}
