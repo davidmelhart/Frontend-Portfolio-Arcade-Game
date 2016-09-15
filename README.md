@@ -1,6 +1,8 @@
 
 **Project 3: Classic Arcade Game**
 ===
+**Try the game at [DAVIDMELHART.COM](http://www.davidmelhart.com)**
+
 ><i class="icon-file"></i>**The Project**
 >This Classic Arcade Game project is focusing on Object Oriented Programming and HTML5 Canvas. In the original assignment, the basic engine was provided. The prewritten parts only contained a basic game loop and a few hints on how to build a basic prototypes for the game.
 
